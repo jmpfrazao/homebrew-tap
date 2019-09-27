@@ -2,9 +2,9 @@ class Kubebuilder < Formula
   desc "SDK for building Kubernetes APIs using CRDs"
   homepage "https://github.com/kubernetes-sigs/kubebuilder"
   head "https://github.com/kubernetes-sigs/kubebuilder.git"
-  version "2.0.0"
-  url "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v2.0.0/kubebuilder_2.0.0_darwin_amd64.tar.gz"
-  sha256 "4679b5d57c857a0d3c763e9eefb4c797804a184fcae7827a3ca9abc990accc70"
+  version "2.0.1"
+  url "https://github.com/kubernetes-sigs/kubebuilder/releases/download/v#{version}/kubebuilder_#{version}_darwin_amd64.tar.gz"
+  sha256 "a2cd518da553584aee2e8a74818da1521f5dd4a9a4a97c8e18b2634e8a8266ca"
 
   depends_on "kustomize"
 
