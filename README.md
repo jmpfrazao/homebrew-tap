@@ -2,4 +2,6 @@
 
 ## Available formulas:
 
-* [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder)
+* [kfctl](https://github.com/kubeflow/kubeflow.git)
+* [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder.git)
+* [ossutil](https://github.com/aliyun/ossutil.git)
