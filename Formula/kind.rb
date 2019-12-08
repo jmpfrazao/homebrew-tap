@@ -1,9 +1,9 @@
 class Kind < Formula
   homepage "https://kind.sigs.k8s.io/"
-  version "0.5.1"
+  version "0.6.1"
   head "https://github.com/kubernetes-sigs/kind.git"
   url "https://github.com/kubernetes-sigs/kind/releases/download/v#{version}/kind-darwin-amd64"
-  sha256 "b6a8fe2b3b53930a1afa4f91b033cdc24b0f6c628d993abaa9e40b57d261162a"
+  sha256 "93d40643b2fe352d494cfebdc089e9e924ac0f9e1241ae07644aff549e6788b9"
 
   def install
     mv "kind-darwin-amd64", "kind"
