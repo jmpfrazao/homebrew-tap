@@ -8,7 +8,6 @@ class Besttrace < Formula
   def install
     bin.install "besttracemac"
     mv bin/"besttracemac", bin/"besttrace"
-    system "chmod", "+x", bin/"besttrace"
   end
 
   test do
