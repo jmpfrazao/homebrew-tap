@@ -1,10 +1,10 @@
 class Ossutil < Formula
   desc "User friendly command-line tool to access AliCloud OSS"
-  version "1.6.10"
+  version "1.6.12"
   homepage "https://www.aliyun.com/product/oss"
   head "https://github.com/aliyun/ossutil.git"
   url "http://gosspublic.alicdn.com/ossutil/#{version}/ossutilmac64"
-  sha256 "df0eda6041576989d0aa6b9831ca6d278e6f96404b4d49f8e1c9974cdab5dfda"
+  sha256 "e64fd977132ece20dc199b96a086a96647bf00e790323cba7202da9391e68b4b"
 
   def install
     bin.install "ossutilmac64"
