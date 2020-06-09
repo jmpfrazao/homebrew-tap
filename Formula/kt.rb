@@ -1,9 +1,9 @@
 class Kt < Formula
   homepage "https://github.com/knight42/kt"
-  version "0.0.3"
+  version "0.0.4"
   head "https://github.com/knight/kt.git"
   url "https://github.com/knight42/kt/releases/download/v#{version}/kt-v#{version}-darwin-amd64.tar.gz"
-  sha256 "1c24a06dac5e2b5143d3580351c95c9f1d778ccaf7a03d5753637e8cbea778fa"
+  sha256 "121f64d0c33aa99df48d164866dad31baecd5fc5c4bb8429de6f8940f8515e5c"
 
   def install
     bin.install "kt"
