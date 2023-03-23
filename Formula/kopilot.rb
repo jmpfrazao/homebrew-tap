@@ -17,11 +17,11 @@ class Kopilot < Formula
     bin.install "kopilot"
 
     # Install bash completion
-    output = Utils.popen_read("#{bin}/kopilot --completion bash")
+    output = Utils.popen_read("#{bin}/kopilot completion bash")
     (bash_completion/"kopilot").write output
 
     # Install zsh completion
-    output = Utils.popen_read("#{bin}/kopilot --completion zsh")
+    output = Utils.popen_read("#{bin}/kopilot completion zsh")
     (zsh_completion/"_kopilot").write output
   end
 
