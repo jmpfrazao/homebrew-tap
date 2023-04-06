@@ -1,15 +1,15 @@
 class Kopilot < Formula
   homepage "https://github.com/knight42/kopilot"
-  version "0.0.2"
+  version "0.0.3"
   head "https://github.com/knight42/kopilot"
   on_macos do
     on_arm do
       url "https://github.com/knight42/kopilot/releases/download/v#{version}/kopilot_v#{version}_darwin_arm64.tar.gz"
-      sha256 "3d55f05fc2afeea7a12fbd7834152ff3587386248d4acd7723654b7af9590a72"
+      sha256 "f02c827f167d393770829361290cdbdd582cf2b5c84d3ef17dd622bf369e7976"
     end
     on_intel do
       url "https://github.com/knight42/kopilot/releases/download/v#{version}/kopilot_v#{version}_darwin_amd64.tar.gz"
-      sha256 "49d0b16c0004bf106c8a05cd0e5593273c72e55b9ec32de3463cf2d6e432cd82"
+      sha256 "53be3c02ff0d6b2e935d79d51a3ecf7ddbf1f0a942d57c1cff7e60defd866006"
     end
   end
 
