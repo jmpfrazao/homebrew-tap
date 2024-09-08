@@ -5,11 +5,11 @@ class Krelay < Formula
   on_macos do
     on_arm do
       url "https://github.com/knight42/krelay/releases/download/v#{version}/kubectl-relay_v#{version}_darwin-arm64.tar.gz"
-      sha256 "419b5d208e387e7d71ed06847cf2330a78e40d7f1bac322969c14eecb14671ac"
+      sha256 "2fb789f32aa1bfb325c90684a0e102de7cd3c7d0205b04935da383369c99698c"
     end
     on_intel do
       url "https://github.com/knight42/krelay/releases/download/v#{version}/kubectl-relay_v#{version}_darwin-amd64.tar.gz"
-      sha256 "2ca64c5413ec4385ddbd93d60fbbf2407b7d9de3898023c583586dd175ba2836"
+      sha256 "c8e6edd6c358b328b9b68e03bf80c6daf7ded306eba4b49d4aec2200b68c96ed"
     end
   end
 
